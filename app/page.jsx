@@ -10,8 +10,6 @@ import Pricing from "@/components/Pricing";
 import Services from "@/components/Services";
 import Team from "@/components/Team";
 import Testimonials from "@/components/Testimonials";
-import ToggleTheme from "@/components/ToggleTheme";
-
 export default function Home() {
   return (
     <>
@@ -46,7 +44,6 @@ export default function Home() {
       <MaxWidthWrapper>
         <ContactUs />
       </MaxWidthWrapper>
-      <ToggleTheme />
     </>
   );
 }

@@ -1,15 +1,13 @@
 import Link from "next/link";
-import { Menu, Search } from "lucide-react";
+import { Menu } from "lucide-react";
 
 import {
   Sheet,
   SheetContent,
-  SheetDescription,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import { Button } from "./ui/button";
 import { NAVLINKS } from "@/constants";
 
 const MobileNavbar = () => {
@@ -22,7 +20,7 @@ const MobileNavbar = () => {
         <SheetContent>
           <SheetHeader>
             <SheetTitle>
-              <Link href={"/"} className="">
+              <Link href={"/"}>
                 <img src={"logo.svg"} alt="Logo" />
               </Link>
             </SheetTitle>
@@ -50,5 +48,4 @@ const MobileNavbar = () => {
     </>
   );
 };
-
 export default MobileNavbar;
