@@ -13,7 +13,7 @@ import PricingCard from "./PricingCard";
 
 const Pricing = () => {
   return (
-    <div className="mt-40">
+    <div className="mt-40" id="pricing">
       <div>
         <SectionHeader
           subHeading={"pricing"}

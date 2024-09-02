@@ -4,7 +4,7 @@ import ContactForm from "./ContactForm";
 
 const ContactUs = () => {
   return (
-    <div className="py-[120px]">
+    <div className="py-[120px]" id="contact">
       <div>
         <SectionHeader
           subHeading={"contact"}

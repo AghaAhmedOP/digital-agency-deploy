@@ -16,7 +16,10 @@ import { Separator } from "./ui/separator";
 
 const Services = () => {
   return (
-    <div className="mt-40 flex flex-col pb-12 pt-20 lg:pb-[90px] lg:pt-[120px]">
+    <div
+      id="services"
+      className="mt-40 flex flex-col pb-12 pt-20 lg:pb-[90px] lg:pt-[120px]"
+    >
       <div className="-mx-4 mb-10 flex flex-wrap items-end lg:mb-[60px]">
         <div className="w-full px-4 lg:w-8/12">
           <SectionHeader

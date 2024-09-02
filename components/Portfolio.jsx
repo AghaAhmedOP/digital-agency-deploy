@@ -5,7 +5,7 @@ import PortfolioCards from "./PortfolioCards";
 
 const Portfolio = () => {
   return (
-    <div className="pt-32 pb-20 flex flex-col gap-10">
+    <div className="pt-32 pb-20 flex flex-col gap-10" id="portfolio">
       <div>
         <SectionHeader
           subHeading={"Creative Portfolio"}
