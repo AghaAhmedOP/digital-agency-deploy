@@ -17,15 +17,17 @@ export default function Home() {
         <Hero />
         <About />
       </MaxWidthWrapper>
-      <div className="bg-secondary">
+      <div className="bg-section">
         <MaxWidthWrapper>
           <Services />
         </MaxWidthWrapper>
       </div>
-      <MaxWidthWrapper>
-        <Portfolio />
-      </MaxWidthWrapper>
-      <div className="bg-secondary">
+      <div className="bg-[#f8f9ff]">
+        <MaxWidthWrapper>
+          <Portfolio />
+        </MaxWidthWrapper>
+      </div>
+      <div className="bg-section">
         <MaxWidthWrapper>
           <HappyClients />
           <NewsLetter />
@@ -36,7 +38,7 @@ export default function Home() {
         <Pricing />
         <Testimonials />
       </MaxWidthWrapper>
-      <div className="bg-secondary">
+      <div className="bg-[#f8f9ff]">
         <MaxWidthWrapper>
           <Blog />
         </MaxWidthWrapper>

@@ -23,13 +23,10 @@ export default function RootLayout({ children }) {
         className={cn("relative h-full font-sans antialiased", inter.className)}
       >
         <main className="relative flex flex-col min-h-screen">
-          <div className="sticky top-0 w-full flex z-40 items-center transition nav-morph">
-            <MaxWidthWrapper>
-              <Navbar />
-            </MaxWidthWrapper>
-          </div>
+          <Navbar />
+
           <div className="flex-grow flex-1">{children}</div>
-          <div className="bg-secondary">
+          <div className="bg-section">
             <MaxWidthWrapper>
               <Footer />
             </MaxWidthWrapper>
