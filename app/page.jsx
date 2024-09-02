@@ -27,7 +27,7 @@ export default function Home() {
           <Portfolio />
         </MaxWidthWrapper>
       </div>
-      <div className="bg-section">
+      <div className="bg-section relative">
         <MaxWidthWrapper>
           <HappyClients />
           <NewsLetter />

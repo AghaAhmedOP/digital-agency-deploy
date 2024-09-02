@@ -39,7 +39,7 @@ const Navbar = () => {
             />
           </Link>
 
-          <ul className="hidden lg:flex gap-5 flex-1 pl-16">
+          <ul className="hidden lg:flex gap-10 flex-1 pl-16">
             {NAVLINKS.map((navlink) => (
               <Link
                 key={navlink.label}

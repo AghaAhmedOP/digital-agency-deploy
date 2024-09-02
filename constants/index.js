@@ -72,3 +72,127 @@ export const PORTFOLIOITEMS = [
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae dolor ultrices libero.",
   },
 ];
+
+export const CLIENTS = [
+  {
+    img: "clients/lineicons.svg",
+    link: "#",
+  },
+  {
+    img: "clients/formbold.svg",
+    link: "#",
+  },
+  {
+    img: "clients/tailadmin.svg",
+    link: "#",
+  },
+  {
+    img: "clients/uideck.svg",
+    link: "#",
+  },
+  {
+    img: "clients/graygrids.svg",
+    link: "#",
+  },
+];
+
+export const PRICING = [
+  {
+    subheading: "Personal",
+    Price: "59",
+    desc: "Perfect for using in a personal website or a client project.",
+    features: [
+      "1 User",
+      "All UI components",
+      "Lifetime access",
+      "Free updates",
+      "Use on 1 (one) project",
+      "3 Months support",
+    ],
+  },
+  {
+    subheading: "Professional",
+    Price: "199",
+    desc: "Perfect for using in a personal website or a client project.",
+    features: [
+      "5 User",
+      "All UI components",
+      "Lifetime access",
+      "Free updates",
+      "Use on 3 (Three) project",
+      "5 Months support",
+    ],
+  },
+  {
+    subheading: "Business",
+    Price: "256",
+    desc: "Perfect for using in a personal website or a client project.",
+    features: [
+      "Unlimited User",
+      "All UI components",
+      "Lifetime access",
+      "Free updates",
+      "Use on unlimited project",
+      "Lifetime support",
+    ],
+  },
+];
+
+export const TESTEMONIALS = [
+  {
+    img: "testemonials/lineicons.svg",
+    review:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam laoreet tempus augue, ac venenatis lectus tempus ut. Sed sodales erat a libero.",
+    avatar: "testemonials/avatars/image-1.webp",
+    name: "Musharof Chy",
+    position: "Founder @ LineIcons",
+  },
+  {
+    img: "testemonials/tailgrids.svg",
+    review:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam laoreet tempus augue, ac venenatis lectus tempus ut. Sed sodales erat a libero.",
+    avatar: "testemonials/avatars/image-2.webp",
+    name: "David Sailio",
+    position: "Founder @ TailGrids",
+  },
+  {
+    img: "testemonials/formbold.svg",
+    review:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam laoreet tempus augue, ac venenatis lectus tempus ut. Sed sodales erat a libero.",
+    avatar: "testemonials/avatars/image-3.webp",
+    name: "Jenifer Lofeez",
+    position: "Founder @ Formbold",
+  },
+  {
+    img: "testemonials/uideck.svg",
+    review:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam laoreet tempus augue, ac venenatis lectus tempus ut. Sed sodales erat a libero.",
+    avatar: "testemonials/avatars/image-4.webp",
+    name: "Justin Harry",
+    position: "Founder @ UIdeck",
+  },
+];
+
+export const BLOGS = [
+  {
+    image: "blogs/img-1.webp",
+    title: "Exploring MERN Stack: Powering Modern Web Development",
+    preview:
+      "In the world of web development, staying ahead of the curve is crucial. One technology stack that ha",
+    link: "#",
+  },
+  {
+    image: "blogs/img-2.webp",
+    title: "Test webhook",
+    preview:
+      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.",
+    link: "#",
+  },
+  {
+    image: "blogs/img-3.webp",
+    title: "The Power of UI/UX: Elevating Digital Experiences",
+    preview:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+    link: "#",
+  },
+];

@@ -5,11 +5,11 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className="mt-20 flex flex-col lg:flex-row items-center">
+    <div className="mt-10 flex flex-col lg:flex-row items-center">
       {/* Left Section */}
       <div className="flex flex-col flex-1">
-        <h1 className="text-4xl font-bold leading-snug text-[#1d2144] sm:text-[42px] lg:text-[40px] xl:text-[42px]">
-          Next.js Site Template For <br /> Agency and Portfolio
+        <h1 className="text-4xl font-bold leading-snug text-[#1d2144] sm:text-[42px] lg:text-[40px] xl:text-[42px] max-w-[580px]">
+          Next.js Site Template For Agency and Portfolio
         </h1>
         <p className="max-w-[480px] text-base text-[#959cb1] font-medium mt-8">
           Elevate your online presence and impress clients effortlessly! —
