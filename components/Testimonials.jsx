@@ -20,6 +20,7 @@ const Testimonials = () => {
       <div className="-mx-4 flex flex-wrap mt-20">
         {TESTEMONIALS.map(({ img, name, review, position, avatar }) => (
           <TestemonialCard
+            key={name}
             image={img}
             name={name}
             review={review}
