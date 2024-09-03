@@ -1,5 +1,4 @@
-import { FaFacebookF, FaLinkedin, FaYoutube } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { ABOUT_ICONS } from "@/constants";
 import SectionHeader from "./SectionHeader";
 import Link from "next/link";
 
@@ -26,30 +25,16 @@ const About = () => {
             semper tempor.
           </p>
           <div className="flex gap-2 items-center justify-start">
-            <Link
-              href="#"
-              className="p-2 rounded-full hover:bg-primary hover:text-white transition duration-150 text-para border border-para"
-            >
-              <FaFacebookF />
-            </Link>
-            <Link
-              href="#"
-              className="p-2 rounded-full hover:bg-primary hover:text-white transition duration-150 text-para border border-para"
-            >
-              <FaXTwitter />
-            </Link>
-            <Link
-              href="#"
-              className="p-2 rounded-full hover:bg-primary hover:text-white transition duration-150 text-para border border-para"
-            >
-              <FaYoutube />
-            </Link>
-            <Link
-              href="#"
-              className="p-2 rounded-full hover:bg-primary hover:text-white transition duration-150 text-para border border-para"
-            >
-              <FaLinkedin />
-            </Link>
+            {ABOUT_ICONS.map(({ icon, link }) => (
+              <Link
+                key={link}
+                href={link}
+                target="_blank"
+                className="p-2 rounded-full hover:bg-primary hover:text-white transition duration-150 text-para border border-para"
+              >
+                {icon}
+              </Link>
+            ))}
           </div>
         </div>
       </div>

@@ -1,5 +1,4 @@
-import React from "react";
-import { Card, CardContent, CardFooter, CardHeader } from "./ui/card";
+import { Card, CardContent } from "./ui/card";
 import Link from "next/link";
 
 const BlogCard = ({ image, title, preview, link }) => {

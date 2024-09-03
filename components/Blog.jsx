@@ -1,11 +1,10 @@
-import React from "react";
 import SectionHeader from "./SectionHeader";
 import { BLOGS } from "@/constants";
 import BlogCard from "./BlogCard";
 
 const Blog = () => {
   return (
-    <div className="py-20 lg:pt-[120px]">
+    <div className="py-20 lg:pt-[120px]" id="blogs">
       <div>
         <SectionHeader
           subHeading={"blog"}

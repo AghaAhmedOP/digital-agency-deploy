@@ -1,7 +1,7 @@
-import React from "react";
 import SectionHeader from "./SectionHeader";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import PortfolioCards from "./PortfolioCards";
+import { PORTFOLIO_CATEGORIES } from "@/constants";
 
 const Portfolio = () => {
   return (
@@ -20,31 +20,17 @@ const Portfolio = () => {
       <div>
         <Tabs defaultValue="all" className="w-full">
           <TabsList className="w-full !bg-inherit !flex-wrap gap-5">
-            <TabsTrigger value="all">All</TabsTrigger>
-            <TabsTrigger value="web">Web</TabsTrigger>
-            <TabsTrigger value="design">Design</TabsTrigger>
-            <TabsTrigger value="app">App</TabsTrigger>
-            <TabsTrigger value="graphic">Graphic</TabsTrigger>
-            <TabsTrigger value="webdesign">Web Design</TabsTrigger>
+            {PORTFOLIO_CATEGORIES.map(({ title, value }) => (
+              <TabsTrigger key={value} value={value}>
+                {title}
+              </TabsTrigger>
+            ))}
           </TabsList>
-          <TabsContent value="all">
-            <PortfolioCards category="all" />
-          </TabsContent>
-          <TabsContent value="web">
-            <PortfolioCards category="web" />
-          </TabsContent>
-          <TabsContent value="design">
-            <PortfolioCards category="design" />
-          </TabsContent>
-          <TabsContent value="app">
-            <PortfolioCards category="app" />
-          </TabsContent>
-          <TabsContent value="graphic">
-            <PortfolioCards category="graphic" />
-          </TabsContent>
-          <TabsContent value="webdesign">
-            <PortfolioCards category="webdesign" />
-          </TabsContent>
+          {PORTFOLIO_CATEGORIES.map(({ value }) => (
+            <TabsContent key={value} value={value}>
+              <PortfolioCards category={value} />
+            </TabsContent>
+          ))}
         </Tabs>
       </div>
     </div>

@@ -1,27 +1,49 @@
+import { FaFacebookF, FaLinkedin, FaYoutube } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+
 export const NAVLINKS = [
   {
     label: "About",
-    link: "#about",
+    link: "/#about",
   },
   {
     label: "Services",
-    link: "#services",
+    link: "/#services",
   },
   {
     label: "Portfolio",
-    link: "#portfolio",
+    link: "/#portfolio",
   },
   {
     label: "Pricing",
-    link: "#pricing",
+    link: "/#pricing",
   },
   {
     label: "Blogs",
-    link: "/blogs",
+    link: "/#blogs",
   },
   {
     label: "Contact",
-    link: "#contact",
+    link: "/#contact",
+  },
+];
+
+export const ABOUT_ICONS = [
+  {
+    icon: <FaFacebookF />,
+    link: "https://www.facebook.com",
+  },
+  {
+    icon: <FaXTwitter />,
+    link: "https://www.x.com",
+  },
+  {
+    icon: <FaYoutube />,
+    link: "https://www.youtube.com",
+  },
+  {
+    icon: <FaLinkedin />,
+    link: "https://www.linkedin.com",
   },
 ];
 
@@ -30,19 +52,46 @@ export const SERVICES = [
     img: "services/service-01.webp",
     title: "Website Development",
     desc: "Lorem ipsum is simply dummy text of the printing typesetting lorem ipsum been dummy text.",
-    link: "#",
+    link: "#services",
   },
   {
     img: "services/service-02.webp",
     title: "Graphic Design",
     desc: "Lorem ipsum is simply dummy text of the printing typesetting lorem ipsum been dummy text.",
-    link: "#",
+    link: "#services",
   },
   {
     img: "services/service-03.webp",
     title: "App Development",
     desc: "Lorem ipsum is simply dummy text of the printing typesetting lorem ipsum been dummy text.",
-    link: "#",
+    link: "#services",
+  },
+];
+
+export const PORTFOLIO_CATEGORIES = [
+  {
+    title: "All",
+    value: "all",
+  },
+  {
+    title: "Web",
+    value: "web",
+  },
+  {
+    title: "Design",
+    value: "design",
+  },
+  {
+    title: "App",
+    value: "app",
+  },
+  {
+    title: "Graphic",
+    value: "graphic",
+  },
+  {
+    title: "Web Design",
+    value: "webdesign",
   },
 ];
 
@@ -93,6 +142,29 @@ export const CLIENTS = [
   {
     img: "clients/graygrids.svg",
     link: "#",
+  },
+];
+
+export const TEAM = [
+  {
+    tmName: "Coriss Ambady",
+    position: "Sales Manager",
+    img: "team/image-01.webp",
+  },
+  {
+    tmName: "Glorius Cristian",
+    position: "App Developer",
+    img: "team/image-02.webp",
+  },
+  {
+    tmName: "Jackie Sanders",
+    position: "UI/UX Designer",
+    img: "team/image-03.webp",
+  },
+  {
+    tmName: "Nikolas Brooten",
+    position: "Sales Manager",
+    img: "team/image-04.webp",
   },
 ];
 

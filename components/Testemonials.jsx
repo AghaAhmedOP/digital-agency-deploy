@@ -1,9 +1,8 @@
 import { TESTEMONIALS } from "@/constants";
 import SectionHeader from "./SectionHeader";
-import { Card, CardContent } from "./ui/card";
 import TestemonialCard from "./TestemonialCard";
 
-const Testimonials = () => {
+const Testemonials = () => {
   return (
     <div className="mt-40">
       <div>
@@ -33,4 +32,4 @@ const Testimonials = () => {
   );
 };
 
-export default Testimonials;
+export default Testemonials;

@@ -56,7 +56,7 @@ const Navbar = () => {
               <Search className="text-gray-400" />
             </Button>
             <button className="bg-primary text-white text-base font-bold transition duration-300 ease-in-out hover:bg-opacity-90 hover:shadow-lg md:px-9 lg:px-8 xl:px-9 py-3 px-8 rounded-full">
-              <Link href={"#"}>Get a Quote</Link>
+              <Link href={"/#contact"}>Get a Quote</Link>
             </button>
           </div>
 

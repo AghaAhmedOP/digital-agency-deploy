@@ -1,13 +1,4 @@
-import React from "react";
 import SectionHeader from "./SectionHeader";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
 import { PRICING } from "@/constants";
 import PricingCard from "./PricingCard";
 
@@ -27,13 +18,13 @@ const Pricing = () => {
       </div>
 
       <div className="-mx-4 flex flex-wrap justify-center mt-20">
-        {PRICING.map((pricing) => (
+        {PRICING.map(({ subheading, Price, desc, features }) => (
           <PricingCard
-            key={pricing.subheading}
-            subheading={pricing.subheading}
-            price={pricing.Price}
-            desc={pricing.desc}
-            features={pricing.features}
+            key={subheading}
+            subheading={subheading}
+            price={Price}
+            desc={desc}
+            features={features}
           />
         ))}
       </div>

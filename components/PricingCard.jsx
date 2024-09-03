@@ -38,10 +38,10 @@ const PricingCard = ({ subheading, price, desc, features }) => {
           </button>
         </CardFooter>
         <div>
-          <span class="absolute right-0 top-7 z-[100]">
+          <span class="absolute right-0 top-7 z-10">
             <DecorativeSVG1 />
           </span>
-          <span class="absolute right-4 top-4 z-[100]">
+          <span class="absolute right-4 top-4 z-10">
             <DecorativeSVG2 />
           </span>
         </div>
@@ -68,8 +68,8 @@ const DecorativeSVG1 = ({ props }) => (
         y2="172"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#3056D3" stop-opacity="0.09"></stop>
-        <stop offset="1" stop-color="#C4C4C4" stop-opacity="0"></stop>
+        <stop stopColor="#3056D3" stopOpacity="0.09"></stop>
+        <stop offset="1" stopColor="#C4C4C4" stopOpacity="0"></stop>
       </linearGradient>
     </defs>
   </svg>

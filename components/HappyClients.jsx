@@ -18,14 +18,14 @@ const HappyClients = () => {
       </div>
 
       <div className="flex flex-wrap items-center justify-center">
-        {CLIENTS.map((client) => (
+        {CLIENTS.map(({ img, link }) => (
           <Link
-            key={client.img}
-            href={client.link}
+            key={img}
+            href={link}
             className="relative mx-3 flex max-w-[120px] items-center justify-center py-[15px] opacity-60 grayscale transition hover:opacity-100 hover:grayscale-0 sm:mx-4 lg:max-w-[130px] xl:mx-6 xl:max-w-[150px] 2xl:mx-8 2xl:max-w-[160px]"
           >
             <img
-              src={client.img}
+              src={img}
               alt="client image logo"
               className="h-10 text-transparent"
             />

@@ -20,14 +20,17 @@ const Hero = () => {
 
         <div className="flex flex-col sm:flex-row gap-8 mt-10">
           <Link
-            href={"#"}
+            href={"#portfolio"}
             className="inline-flex items-center justify-center rounded-lg bg-primary px-10 py-4 text-center text-base font-medium tracking-wide text-white hover:bg-primary/90 lg:px-8 xl:px-10"
           >
             Explore Portfolio
           </Link>
 
           <Link
-            href={"#"}
+            href={
+              "https://drive.google.com/file/d/1wEyuLZ66BS6fVQsDbmwCPWXdo3BEWaIf/view?usp=sharing"
+            }
+            target="_blank"
             className="inline-flex items-center justify-center tracking-wide py-1 text-center text-base font-medium text-[#959cb1] hover:text-primary gap-2"
           >
             <MdDownload className="fill-primary w-6 h-6" />

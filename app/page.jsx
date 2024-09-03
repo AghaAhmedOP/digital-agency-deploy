@@ -9,7 +9,8 @@ import Portfolio from "@/components/Portfolio";
 import Pricing from "@/components/Pricing";
 import Services from "@/components/Services";
 import Team from "@/components/Team";
-import Testimonials from "@/components/Testimonials";
+import Testemonials from "@/components/Testemonials";
+
 export default function Home() {
   return (
     <>
@@ -36,7 +37,7 @@ export default function Home() {
       <MaxWidthWrapper>
         <Team />
         <Pricing />
-        <Testimonials />
+        <Testemonials />
       </MaxWidthWrapper>
       <div className="bg-[#f8f9ff]">
         <MaxWidthWrapper>
